@@ -1,0 +1,78 @@
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  height: 100%;
+  background: #ECF0F3;
+}
+
+
+.hero.is-main {
+  background: #ECF0F3;
+}
+.hero.welcome.is-link {
+  background: #98b2ed;
+  background: -webkit-linear-gradient(to right,#2eaba7, #98b2ed);
+  background: linear-gradient(to right, #2ea3ab, #98b2ed);
+}
+
+.hero.is_main .title {
+  color: hsl(0, 0%, 0%);
+}
+
+.hero.is-main .subtitle {
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+}
+.hero.is-main .text {
+  color: hsl(0, 0%, 0%);
+}
+
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #2749c1;
+  display: block;
+}
+.sidenav a:hover {
+  color: #05073c;
+}
+
+.main {
+  margin-left: 260px; /* Same as the width of the sidenav */
+  font-size: 16px; 
+  padding: 10px 10px;
+}
+
+.has-sky {
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  opacity: 70%;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  
+}
