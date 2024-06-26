@@ -1,0 +1,270 @@
+timestamp: 2023-04-26T09:47:55.647135
+CREATE TABLE "py4web_session"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "rkey" CHAR(512),
+    "rvalue" TEXT,
+    "expiration" INTEGER,
+    "created_on" TIMESTAMP,
+    "expires_on" TIMESTAMP
+);
+success!
+timestamp: 2023-04-26T09:47:55.649732
+CREATE TABLE "auth_user"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "email" CHAR(512) UNIQUE,
+    "password" CHAR(512),
+    "first_name" CHAR(512),
+    "last_name" CHAR(512),
+    "sso_id" CHAR(512),
+    "action_token" CHAR(512),
+    "last_password_change" TIMESTAMP,
+    "past_passwords_hash" TEXT
+);
+success!
+timestamp: 2023-04-26T09:47:55.651814
+CREATE TABLE "auth_user_tag_groups"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "tagpath" CHAR(512),
+    "record_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE ON UPDATE CASCADE  
+);
+success!
+timestamp: 2023-04-26T09:47:55.655547
+CREATE TABLE "contact"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "firstname" CHAR(512),
+    "lastname" CHAR(512),
+    "createdby" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE ON UPDATE CASCADE  
+);
+success!
+timestamp: 2023-04-26T10:00:52.935710
+ALTER TABLE "contact" ADD "first_name" CHAR(512);
+timestamp: 2023-04-26T10:00:52.942631
+ALTER TABLE "contact" ADD "last_name" CHAR(512);
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+timestamp: 2023-04-26T11:05:38.760004
+ALTER TABLE "contact" ADD "created_by" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE ON UPDATE CASCADE  ;
+success!
+success!
+success!
+timestamp: 2023-04-26T11:08:51.060747
+ALTER TABLE "contact" ADD "email" CHAR(512);
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+timestamp: 2023-04-26T11:26:21.871651
+CREATE TABLE "phone"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "contact_id" INTEGER REFERENCES "contact" ("id") ON DELETE CASCADE ON UPDATE CASCADE  
+);
+success!
+success!
+success!
+success!
+timestamp: 2023-04-26T11:47:19.066060
+ALTER TABLE "phone" ADD "phone_number" CHAR(512);
+timestamp: 2023-04-26T11:47:19.069234
+ALTER TABLE "phone" ADD "phone_name" CHAR(512);
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+success!
+timestamp: 2023-05-25T17:19:16.226102
+CREATE TABLE "trade"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "trade_user_id" CHAR(512),
+    "trade_username" CHAR(512),
+    "trade_friend_code" CHAR(512),
+    "trade_discord" CHAR(512),
+    "trade_reddit" CHAR(512)
+);
+success!
+timestamp: 2023-05-25T17:19:16.228675
+CREATE TABLE "parts"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "trade_id" INTEGER REFERENCES "trade" ("id") ON DELETE CASCADE ON UPDATE CASCADE  ,
+    "parts_have" CHAR(512),
+    "parts_seeking" CHAR(512)
+);
+success!

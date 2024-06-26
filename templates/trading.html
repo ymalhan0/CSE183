@@ -1,0 +1,175 @@
+[[extend 'layout.html']]
+<style>
+    [v-cloak] {
+        display: none;
+    }
+</style>
+<div class="sidenav">
+    <a href="[[=URL('index')]]">Home</a>
+    <a href="[[=URL('trading')]]">Trading</a>
+    <a href="[[=URL('planner')]]">Flight Planner</a>
+    <a href="[[=URL('distance')]]">Distance Calculator</a>
+</div>
+
+<div class="main" id="vue-target" v-cloak>
+    <!--Top welcome message-->
+    <section class="hero is-link welcome is-small mb-3">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Trading Hub <span>&#129309</span>
+                </h1>
+                <h2 class="subtitle">Use the search bar to filter the table to see users that have what you're
+                    seeking.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Search bar for parts-->
+    <div class="field">
+        <p class="control has-icons-left ">
+            <input class="input" type="text" v-model="search_parts" placeholder="Search for parts to reserve" />
+            <span class="icon has-text-info is-small is-left">
+                <i class="fa fa-search"></i>
+            </span>
+        </p>
+        <!--Clear search bar and reset table -->
+        <button class="button is-warning is-light is-outlined mt-3" @click="clear_search">
+            Clear Search Bar
+        </button>
+    </div>
+
+
+    <!--Showing results of searching part in the table-->
+
+    <!--Table to display all user's information, eventually will be able-->
+    <!--to search to reduce the number of entries listed here-->
+    <table class="table is-striped is-fullwidth">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Friend Code</th>
+                <th>Discord</th>
+                <th>Reddit</th>
+                <th>Have:</th>
+                <th>Seeking:</th>
+            </tr>
+        </thead>
+
+        <!-- This part filters the results to show what 'have' was entered in search bar, 
+            shows user that has all parts including given string 
+            (at least one user's data is shown, none if no strings match) -->
+
+        <tr v-for="part in trade_items" v-if="search(part.have)">
+            <td>{{ part.trade_username }}</td>
+            <td>{{ part.trade_friend_code }}</td>
+            <td>{{ part.trade_discord }}</td>
+            <td>{{ part.trade_reddit }}</td>
+            <td>
+                <div class="container pb-2" v-for="item in part.have">
+                    <span>{{ item.part_name }}</span>
+                    <!--Reserve button-->
+                    <button class="button is-success is-light is-small"
+                        v-if="(item.reserved_by == 'none') && (current_user != null)"
+                        v-on:click="swap_reservation(item.id)">
+                        Reserve
+                    </button>
+                    <button class="button is-success is-small"
+                        v-if="(item.reserved_by != 'none') && (item.reserved_by == current_user)"
+                        v-on:click="swap_reservation(item.id)">
+                        Reserved!
+                    </button>
+                    <span class="icon is-medium has-text-danger"
+                        v-if="((item.reserved_by != 'none') && (item.reserved_by != current_user)) || (current_user == null)">
+                        <i class="fa fa-exclamation-triangle"></i>
+                    </span>
+
+                </div>
+            </td>
+            <td>
+                <div class="container" v-for="item in part.seeking">
+                    <span>{{ item.part_name }}</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <!--Edit user info-->
+    <a class="button is-link is-light is-outlined mb-3" href="[[=URL('edit_user')]]">
+        <span class="icon-text"><i class="fa fa-fw fa-pencil"></i></span>
+        <span>Edit User Info</span>
+    </a>
+
+    <!--Add have part for logged in user-->
+    <a class="button  is-link is-inverted mb-3" href="[[=URL('add_have')]]" v-if="curr_user_trade_items.length != 0">
+        <span class="icon-text"><i class="fa fa-fw fa-plus"></i></span>
+        <span>Add Have Part</span>
+    </a>
+
+    <!--Add seeking part for logged in user-->
+    <a class="button  is-link is-inverted mb-3" href="[[=URL('add_seeking')]]" v-if="curr_user_trade_items.length != 0">
+        <span class="icon-text"><i class="fa fa-fw fa-plus"></i></span>
+        <span>Add Seeking Part</span>
+    </a>
+
+    <!--View offers and reservations of parts-->
+    <a class="button" href="[[=URL('offers_reservations')]]" v-if="curr_user_trade_items.length != 0">
+        <span>Offers and Reservations</span>
+    </a>
+
+
+    <!--Table to display only the current user's information-->
+
+    <table class="table is-striped is-fullwidth">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Friend Code</th>
+                <th>Discord</th>
+                <th>Reddit</th>
+                <th>Have:</th>
+                <th>Seeking:</th>
+            </tr>
+        </thead>
+
+        <tr v-for="part in curr_user_trade_items">
+            <td>{{ part.trade_username }}</td>
+            <td>{{ part.trade_friend_code }}</td>
+            <td>{{ part.trade_discord }}</td>
+            <td>{{ part.trade_reddit }}</td>
+            <td>
+                <div class="container" v-for="item in curr_user_parts_have">
+                    <span>{{ item.part_name }}</span>
+                    <span class="icon is-small has-text-danger clickable" v-on:click="remove_part(item.id)">
+                        <i class="fa fa-times-circle"></i>
+                    </span>
+                </div>
+            </td>
+            <td>
+                <div class="container" v-for="item2 in curr_user_parts_seeking">
+                    <span>{{ item2.part_name }}</span>
+                    <span class="icon is-small has-text-danger clickable" v-on:click="remove_part(item2.id)">
+                        <i class="fa fa-times-circle"></i>
+                    </span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!--Only shows when the user hasn't entered any user info-->
+    <section>
+        <div class="container subtitle has-text-danger-dark has-text-weight-medium" v-if="curr_user_trade_items.length == 0">
+            You don't have any user info yet! You cannot reserve any parts until you provide the necessary information.
+        </div>
+    </section>
+
+
+</div>
+
+[[block page_scripts]]
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+<script src="js/index.js"></script>
+[[end]]

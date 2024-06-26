@@ -1,0 +1,2010 @@
+[
+  {
+    "city": "Adelaide",
+    "x": "2463",
+    "y": "1572",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Aden",
+    "x": "1764",
+    "y": "1188",
+    "class": "1",
+    "cost": "6,000",
+    "population": "1"
+  },
+  {
+    "city": "Ahmedabad",
+    "x": "1966",
+    "y": "1118",
+    "class": "2",
+    "cost": "32,760",
+    "population": "6.352"
+  },
+  {
+    "city": "Al Fashir",
+    "x": "1601",
+    "y": "1174",
+    "class": "1",
+    "cost": "2,325",
+    "population": "0.265"
+  },
+  {
+    "city": "Algiers",
+    "x": "1442",
+    "y": "998",
+    "class": "2",
+    "cost": "26,000",
+    "population": "5"
+  },
+  {
+    "city": "Alice Springs",
+    "x": "2431",
+    "y": "1482",
+    "class": "1",
+    "cost": "1,135",
+    "population": "0.027"
+  },
+  {
+    "city": "Amsterdam",
+    "x": "1461",
+    "y": "830",
+    "class": "1",
+    "cost": "15,360",
+    "population": "2.872"
+  },
+  {
+    "city": "Anadyr",
+    "x": "2749",
+    "y": "648",
+    "class": "1",
+    "cost": "1,065",
+    "population": "0.013"
+  },
+  {
+    "city": "Anchorage",
+    "x": "295",
+    "y": "707",
+    "class": "1",
+    "cost": "2,875",
+    "population": "0.375"
+  },
+  {
+    "city": "Araguaina",
+    "x": "1057",
+    "y": "1338",
+    "class": "1",
+    "cost": "1,765",
+    "population": "0.153"
+  },
+  {
+    "city": "Asuncion",
+    "x": "993",
+    "y": "1497",
+    "class": "1",
+    "cost": "12,645",
+    "population": "2.329"
+  },
+  {
+    "city": "Athens",
+    "x": "1599",
+    "y": "982",
+    "class": "1",
+    "cost": "19,685",
+    "population": "3.737"
+  },
+  {
+    "city": "Atlanta",
+    "x": "791",
+    "y": "1028",
+    "class": "2",
+    "cost": "27,345",
+    "population": "5.269"
+  },
+  {
+    "city": "Auckland",
+    "x": "2727",
+    "y": "1588",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Baghdad",
+    "x": "1746",
+    "y": "1020",
+    "class": "2",
+    "cost": "37,080",
+    "population": "7.216"
+  },
+  {
+    "city": "Bamako",
+    "x": "1369",
+    "y": "1192",
+    "class": "1",
+    "cost": "14,785",
+    "population": "2.757"
+  },
+  {
+    "city": "Bangalore",
+    "x": "2001",
+    "y": "1195",
+    "class": "3",
+    "cost": "43,495",
+    "population": "8.499"
+  },
+  {
+    "city": "Bangkok",
+    "x": "2170",
+    "y": "1188",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Barcelona",
+    "x": "1435",
+    "y": "952",
+    "class": "2",
+    "cost": "26,415",
+    "population": "5.083"
+  },
+  {
+    "city": "Bariloche",
+    "x": "887",
+    "y": "1642",
+    "class": "1",
+    "cost": "1,540",
+    "population": "0.108"
+  },
+  {
+    "city": "Barrow",
+    "x": "252",
+    "y": "521",
+    "class": "1",
+    "cost": "1,020",
+    "population": "0.004"
+  },
+  {
+    "city": "Beijing",
+    "x": "2295",
+    "y": "966",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Beira",
+    "x": "1674",
+    "y": "1444",
+    "class": "1",
+    "cost": "3,180",
+    "population": "0.436"
+  },
+  {
+    "city": "Beirut",
+    "x": "1693",
+    "y": "1020",
+    "class": "1",
+    "cost": "12,250",
+    "population": "2.25"
+  },
+  {
+    "city": "Belem",
+    "x": "1054",
+    "y": "1299",
+    "class": "1",
+    "cost": "12,245",
+    "population": "2.249"
+  },
+  {
+    "city": "Belfast",
+    "x": "1368",
+    "y": "805",
+    "class": "1",
+    "cost": "4,210",
+    "population": "0.642"
+  },
+  {
+    "city": "Belgrade",
+    "x": "1578",
+    "y": "912",
+    "class": "1",
+    "cost": "9,195",
+    "population": "1.639"
+  },
+  {
+    "city": "Benghazi",
+    "x": "1572",
+    "y": "1042",
+    "class": "1",
+    "cost": "4,355",
+    "population": "0.671"
+  },
+  {
+    "city": "Bergen",
+    "x": "1458",
+    "y": "723",
+    "class": "1",
+    "cost": "2,945",
+    "population": "0.389"
+  },
+  {
+    "city": "Berlin",
+    "x": "1528",
+    "y": "831",
+    "class": "2",
+    "cost": "23,150",
+    "population": "4.43"
+  },
+  {
+    "city": "Bern",
+    "x": "1480",
+    "y": "886",
+    "class": "1",
+    "cost": "4,300",
+    "population": "0.66"
+  },
+  {
+    "city": "Bismarck",
+    "x": "643",
+    "y": "898",
+    "class": "1",
+    "cost": "1,545",
+    "population": "0.109"
+  },
+  {
+    "city": "Bogota",
+    "x": "860",
+    "y": "1245",
+    "class": "2",
+    "cost": "40,405",
+    "population": "7.881"
+  },
+  {
+    "city": "Bordeaux",
+    "x": "1417",
+    "y": "910",
+    "class": "1",
+    "cost": "6,525",
+    "population": "1.105"
+  },
+  {
+    "city": "Boston",
+    "x": "885",
+    "y": "940",
+    "class": "2",
+    "cost": "23,615",
+    "population": "4.523"
+  },
+  {
+    "city": "Brasilia",
+    "x": "1044",
+    "y": "1419",
+    "class": "1",
+    "cost": "13,815",
+    "population": "2.563"
+  },
+  {
+    "city": "Brisbane",
+    "x": "2565",
+    "y": "1514",
+    "class": "1",
+    "cost": "16,000",
+    "population": "3"
+  },
+  {
+    "city": "Broken Hill",
+    "x": "2486",
+    "y": "1550",
+    "class": "1",
+    "cost": "1,135",
+    "population": "0.027"
+  },
+  {
+    "city": "Broome",
+    "x": "2344",
+    "y": "1418",
+    "class": "1",
+    "cost": "1,250",
+    "population": "0.05"
+  },
+  {
+    "city": "Brussels",
+    "x": "1454",
+    "y": "853",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Bucharest",
+    "x": "1651",
+    "y": "912",
+    "class": "1",
+    "cost": "10,650",
+    "population": "1.93"
+  },
+  {
+    "city": "Buenos Aires",
+    "x": "988",
+    "y": "1575",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Butwal",
+    "x": "2044",
+    "y": "1078",
+    "class": "1",
+    "cost": "1,620",
+    "population": "0.124"
+  },
+  {
+    "city": "Cairns",
+    "x": "2507",
+    "y": "1424",
+    "class": "1",
+    "cost": "1,760",
+    "population": "0.152"
+  },
+  {
+    "city": "Cairo",
+    "x": "1646",
+    "y": "1063",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Calgary",
+    "x": "577",
+    "y": "832",
+    "class": "1",
+    "cost": "6,395",
+    "population": "1.079"
+  },
+  {
+    "city": "Campo Grande",
+    "x": "1002",
+    "y": "1452",
+    "class": "1",
+    "cost": "6,000",
+    "population": "1"
+  },
+  {
+    "city": "Cancun",
+    "x": "767",
+    "y": "1133",
+    "class": "1",
+    "cost": "4,140",
+    "population": "0.628"
+  },
+  {
+    "city": "Cape Town",
+    "x": "1557",
+    "y": "1555",
+    "class": "1",
+    "cost": "18,485",
+    "population": "3.497"
+  },
+  {
+    "city": "Caracas",
+    "x": "910",
+    "y": "1209",
+    "class": "2",
+    "cost": "33,370",
+    "population": "6.474"
+  },
+  {
+    "city": "Casablanca",
+    "x": "1364",
+    "y": "1031",
+    "class": "1",
+    "cost": "15,750",
+    "population": "2.95"
+  },
+  {
+    "city": "Cebu",
+    "x": "2354",
+    "y": "1214",
+    "class": "1",
+    "cost": "5,115",
+    "population": "0.823"
+  },
+  {
+    "city": "Charleston",
+    "x": "823",
+    "y": "1035",
+    "class": "1",
+    "cost": "4,295",
+    "population": "0.659"
+  },
+  {
+    "city": "Chengdu",
+    "x": "2164",
+    "y": "1051",
+    "class": "2",
+    "cost": "34,655",
+    "population": "6.731"
+  },
+  {
+    "city": "Chicago",
+    "x": "757",
+    "y": "931",
+    "class": "3",
+    "cost": "48,305",
+    "population": "9.461"
+  },
+  {
+    "city": "Chihuahua",
+    "x": "631",
+    "y": "1070",
+    "class": "1",
+    "cost": "5,205",
+    "population": "0.841"
+  },
+  {
+    "city": "Christchurch",
+    "x": "2712",
+    "y": "1650",
+    "class": "1",
+    "cost": "2,905",
+    "population": "0.381"
+  },
+  {
+    "city": "Cincinnati",
+    "x": "791",
+    "y": "975",
+    "class": "1",
+    "cost": "11,650",
+    "population": "2.13"
+  },
+  {
+    "city": "Copenhagen",
+    "x": "1516",
+    "y": "783",
+    "class": "1",
+    "cost": "10,655",
+    "population": "1.931"
+  },
+  {
+    "city": "Cordoba",
+    "x": "949",
+    "y": "1541",
+    "class": "1",
+    "cost": "8,650",
+    "population": "1.53"
+  },
+  {
+    "city": "Seville",
+    "x": "1376",
+    "y": "987",
+    "class": "1",
+    "cost": "4,515",
+    "population": "0.703"
+  },
+  {
+    "city": "Cuiaba",
+    "x": "988",
+    "y": "1409",
+    "class": "1",
+    "cost": "3,715",
+    "population": "0.543"
+  },
+  {
+    "city": "Cuzco",
+    "x": "884",
+    "y": "1390",
+    "class": "1",
+    "cost": "2,795",
+    "population": "0.359"
+  },
+  {
+    "city": "Dakar",
+    "x": "1296",
+    "y": "1179",
+    "class": "1",
+    "cost": "13,265",
+    "population": "2.453"
+  },
+  {
+    "city": "Dallas",
+    "x": "692",
+    "y": "1036",
+    "class": "2",
+    "cost": "32,860",
+    "population": "6.372"
+  },
+  {
+    "city": "Darwin",
+    "x": "2407",
+    "y": "1385",
+    "class": "1",
+    "cost": "1,640",
+    "population": "0.128"
+  },
+  {
+    "city": "Delhi",
+    "x": "1993",
+    "y": "1068",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Denver",
+    "x": "625",
+    "y": "965",
+    "class": "1",
+    "cost": "13,760",
+    "population": "2.552"
+  },
+  {
+    "city": "Detroit",
+    "x": "797",
+    "y": "945",
+    "class": "2",
+    "cost": "22,480",
+    "population": "4.296"
+  },
+  {
+    "city": "Dhaka",
+    "x": "2094",
+    "y": "1109",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Djibouti",
+    "x": "1752",
+    "y": "1200",
+    "class": "1",
+    "cost": "3,990",
+    "population": "0.598"
+  },
+  {
+    "city": "Durban",
+    "x": "1649",
+    "y": "1526",
+    "class": "1",
+    "cost": "18,500",
+    "population": "3.5"
+  },
+  {
+    "city": "Easter Island",
+    "x": "599",
+    "y": "1495",
+    "class": "1",
+    "cost": "1,025",
+    "population": "0.005"
+  },
+  {
+    "city": "Edmonton",
+    "x": "584",
+    "y": "798",
+    "class": "1",
+    "cost": "6,175",
+    "population": "1.035"
+  },
+  {
+    "city": "Fairbanks",
+    "x": "310",
+    "y": "653",
+    "class": "1",
+    "cost": "1,260",
+    "population": "0.052"
+  },
+  {
+    "city": "Fortaleza",
+    "x": "1121",
+    "y": "1316",
+    "class": "1",
+    "cost": "19,010",
+    "population": "3.602"
+  },
+  {
+    "city": "Georgetown",
+    "x": "985",
+    "y": "1242",
+    "class": "1",
+    "cost": "2,775",
+    "population": "0.355"
+  },
+  {
+    "city": "Geraldton",
+    "x": "2283",
+    "y": "1507",
+    "class": "1",
+    "cost": "1,185",
+    "population": "0.037"
+  },
+  {
+    "city": "Glasgow",
+    "x": "1392",
+    "y": "781",
+    "class": "1",
+    "cost": "13,750",
+    "population": "2.55"
+  },
+  {
+    "city": "Goose Bay",
+    "x": "952",
+    "y": "789",
+    "class": "1",
+    "cost": "1,040",
+    "population": "0.008"
+  },
+  {
+    "city": "Guangzhou",
+    "x": "2265",
+    "y": "1105",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Guatemala",
+    "x": "740",
+    "y": "1178",
+    "class": "2",
+    "cost": "21,500",
+    "population": "4.1"
+  },
+  {
+    "city": "Hammerfest",
+    "x": "1602",
+    "y": "538",
+    "class": "1",
+    "cost": "1,045",
+    "population": "0.009"
+  },
+  {
+    "city": "Hanoi",
+    "x": "2210",
+    "y": "1132",
+    "class": "2",
+    "cost": "33,500",
+    "population": "6.5"
+  },
+  {
+    "city": "Harare",
+    "x": "1680",
+    "y": "1399",
+    "class": "1",
+    "cost": "16,000",
+    "population": "3"
+  },
+  {
+    "city": "Harbin",
+    "x": "2369",
+    "y": "900",
+    "class": "2",
+    "cost": "27,410",
+    "population": "5.282"
+  },
+  {
+    "city": "Havana",
+    "x": "795",
+    "y": "1120",
+    "class": "1",
+    "cost": "16,000",
+    "population": "3"
+  },
+  {
+    "city": "Helsinki",
+    "x": "1606",
+    "y": "718",
+    "class": "1",
+    "cost": "7,710",
+    "population": "1.342"
+  },
+  {
+    "city": "Hilo",
+    "x": "268",
+    "y": "1144",
+    "class": "1",
+    "cost": "1,500",
+    "population": "0.1"
+  },
+  {
+    "city": "Hobart",
+    "x": "2523",
+    "y": "1644",
+    "class": "1",
+    "cost": "2,060",
+    "population": "0.212"
+  },
+  {
+    "city": "Hong Kong",
+    "x": "2279",
+    "y": "1117",
+    "class": "2",
+    "cost": "36,305",
+    "population": "7.061"
+  },
+  {
+    "city": "Honolulu",
+    "x": "229",
+    "y": "1119",
+    "class": "2",
+    "cost": "21,000",
+    "population": "4"
+  },
+  {
+    "city": "Houston",
+    "x": "703",
+    "y": "1068",
+    "class": "2",
+    "cost": "30,735",
+    "population": "5.947"
+  },
+  {
+    "city": "Hyderabad",
+    "x": "2010",
+    "y": "1163",
+    "class": "2",
+    "cost": "39,745",
+    "population": "7.749"
+  },
+  {
+    "city": "In Salah",
+    "x": "1424",
+    "y": "1086",
+    "class": "1",
+    "cost": "1,218",
+    "population": "0.0437"
+  },
+  {
+    "city": "Inuvik",
+    "x": "417",
+    "y": "579",
+    "class": "1",
+    "cost": "1,015",
+    "population": "0.003"
+  },
+  {
+    "city": "Iqaluit",
+    "x": "909",
+    "y": "664",
+    "class": "1",
+    "cost": "1,035",
+    "population": "0.007"
+  },
+  {
+    "city": "Iquitos",
+    "x": "880",
+    "y": "1320",
+    "class": "1",
+    "cost": "3,030",
+    "population": "0.406"
+  },
+  {
+    "city": "Istanbul",
+    "x": "1642",
+    "y": "958",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Jakarta",
+    "x": "2223",
+    "y": "1339",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Jerusalem",
+    "x": "1685",
+    "y": "1042",
+    "class": "1",
+    "cost": "6,145",
+    "population": "1.029"
+  },
+  {
+    "city": "Johannesburg",
+    "x": "1621",
+    "y": "1492",
+    "class": "2",
+    "cost": "21,000",
+    "population": "4"
+  },
+  {
+    "city": "Juba",
+    "x": "1662",
+    "y": "1248",
+    "class": "1",
+    "cost": "2,860",
+    "population": "0.372"
+  },
+  {
+    "city": "Juneau",
+    "x": "419",
+    "y": "771",
+    "class": "1",
+    "cost": "1,085",
+    "population": "0.017"
+  },
+  {
+    "city": "Kabul",
+    "x": "1944",
+    "y": "1012",
+    "class": "1",
+    "cost": "16,355",
+    "population": "3.071"
+  },
+  {
+    "city": "Kaduna",
+    "x": "1476",
+    "y": "1207",
+    "class": "1",
+    "cost": "4,800",
+    "population": "0.76"
+  },
+  {
+    "city": "Kalgoorlie",
+    "x": "2346",
+    "y": "1531",
+    "class": "1",
+    "cost": "1,165",
+    "population": "0.033"
+  },
+  {
+    "city": "Kampala",
+    "x": "1667",
+    "y": "1281",
+    "class": "1",
+    "cost": "9,300",
+    "population": "1.66"
+  },
+  {
+    "city": "Kananga",
+    "x": "1597",
+    "y": "1343",
+    "class": "1",
+    "cost": "6,650",
+    "population": "1.13"
+  },
+  {
+    "city": "Kandahar",
+    "x": "1911",
+    "y": "1037",
+    "class": "1",
+    "cost": "3,560",
+    "population": "0.512"
+  },
+  {
+    "city": "Kansas City",
+    "x": "699",
+    "y": "974",
+    "class": "1",
+    "cost": "12,000",
+    "population": "2.2"
+  },
+  {
+    "city": "Karachi",
+    "x": "1921",
+    "y": "1096",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Katherine",
+    "x": "2419",
+    "y": "1408",
+    "class": "1",
+    "cost": "1,030",
+    "population": "0.006"
+  },
+  {
+    "city": "Ketchikan",
+    "x": "451",
+    "y": "803",
+    "class": "1",
+    "cost": "1,040",
+    "population": "0.008"
+  },
+  {
+    "city": "Khartoum",
+    "x": "1667",
+    "y": "1179",
+    "class": "2",
+    "cost": "27,370",
+    "population": "5.274"
+  },
+  {
+    "city": "Kyiv",
+    "x": "1670",
+    "y": "855",
+    "class": "1",
+    "cost": "19,240",
+    "population": "3.648"
+  },
+  {
+    "city": "Kinshasa",
+    "x": "1526",
+    "y": "1312",
+    "class": "3",
+    "cost": "48,315",
+    "population": "9.463"
+  },
+  {
+    "city": "Kisangani",
+    "x": "1607",
+    "y": "1271",
+    "class": "1",
+    "cost": "4,415",
+    "population": "0.683"
+  },
+  {
+    "city": "Kolkata",
+    "x": "2074",
+    "y": "1122",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Kuching",
+    "x": "2246",
+    "y": "1285",
+    "class": "1",
+    "cost": "4,090",
+    "population": "0.618"
+  },
+  {
+    "city": "Kuwait City",
+    "x": "1775",
+    "y": "1062",
+    "class": "1",
+    "cost": "12,900",
+    "population": "2.38"
+  },
+  {
+    "city": "La Paz",
+    "x": "911",
+    "y": "1428",
+    "class": "1",
+    "cost": "12,820",
+    "population": "2.364"
+  },
+  {
+    "city": "Lagos",
+    "x": "1452",
+    "y": "1241",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Las Vegas",
+    "x": "566",
+    "y": "1002",
+    "class": "1",
+    "cost": "10,755",
+    "population": "1.951"
+  },
+  {
+    "city": "Lhasa",
+    "x": "2100",
+    "y": "1054",
+    "class": "1",
+    "cost": "3,500",
+    "population": "0.5"
+  },
+  {
+    "city": "Lilongwe",
+    "x": "1694",
+    "y": "1379",
+    "class": "1",
+    "cost": "4,910",
+    "population": "0.782"
+  },
+  {
+    "city": "Lima",
+    "x": "837",
+    "y": "1357",
+    "class": "3",
+    "cost": "43,365",
+    "population": "8.473"
+  },
+  {
+    "city": "Lisbon",
+    "x": "1355",
+    "y": "971",
+    "class": "1",
+    "cost": "15,080",
+    "population": "2.816"
+  },
+  {
+    "city": "Livingstone",
+    "x": "1611",
+    "y": "1419",
+    "class": "1",
+    "cost": "1,485",
+    "population": "0.097"
+  },
+  {
+    "city": "Lobito",
+    "x": "1529",
+    "y": "1382",
+    "class": "1",
+    "cost": "2,040",
+    "population": "0.208"
+  },
+  {
+    "city": "London",
+    "x": "1410",
+    "y": "845",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Los Angeles",
+    "x": "526",
+    "y": "1023",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Lulea",
+    "x": "1583",
+    "y": "640",
+    "class": "1",
+    "cost": "1,235",
+    "population": "0.047"
+  },
+  {
+    "city": "Lyon",
+    "x": "1455",
+    "y": "905",
+    "class": "1",
+    "cost": "11,590",
+    "population": "2.118"
+  },
+  {
+    "city": "Madrid",
+    "x": "1395",
+    "y": "955",
+    "class": "2",
+    "cost": "33,295",
+    "population": "6.459"
+  },
+  {
+    "city": "Magadan",
+    "x": "2561",
+    "y": "734",
+    "class": "1",
+    "cost": "1,480",
+    "population": "0.096"
+  },
+  {
+    "city": "Mahajanga",
+    "x": "1769",
+    "y": "1416",
+    "class": "1",
+    "cost": "1,680",
+    "population": "0.136"
+  },
+  {
+    "city": "Manaus",
+    "x": "972",
+    "y": "1306",
+    "class": "1",
+    "cost": "11,210",
+    "population": "2.042"
+  },
+  {
+    "city": "Manchester",
+    "x": "1397",
+    "y": "817",
+    "class": "1",
+    "cost": "3,500",
+    "population": "0.5"
+  },
+  {
+    "city": "Manila",
+    "x": "2326",
+    "y": "1182",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Melbourne",
+    "x": "2506",
+    "y": "1591",
+    "class": "2",
+    "cost": "22,000",
+    "population": "4.2"
+  },
+  {
+    "city": "Mexico City",
+    "x": "683",
+    "y": "1145",
+    "class": "3",
+    "cost": "45,255",
+    "population": "8.851"
+  },
+  {
+    "city": "Miami",
+    "x": "819",
+    "y": "1096",
+    "class": "2",
+    "cost": "28,735",
+    "population": "5.547"
+  },
+  {
+    "city": "Minneapolis",
+    "x": "719",
+    "y": "908",
+    "class": "1",
+    "cost": "17,585",
+    "population": "3.317"
+  },
+  {
+    "city": "Minsk",
+    "x": "1644",
+    "y": "807",
+    "class": "1",
+    "cost": "11,500",
+    "population": "2.1"
+  },
+  {
+    "city": "Mogadishu",
+    "x": "1768",
+    "y": "1273",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Mombasa",
+    "x": "1713",
+    "y": "1320",
+    "class": "1",
+    "cost": "5,695",
+    "population": "0.939"
+  },
+  {
+    "city": "Monrovia",
+    "x": "1339",
+    "y": "1243",
+    "class": "1",
+    "cost": "6,055",
+    "population": "1.011"
+  },
+  {
+    "city": "Monterrey",
+    "x": "671",
+    "y": "1086",
+    "class": "2",
+    "cost": "27,735",
+    "population": "5.347"
+  },
+  {
+    "city": "Montreal",
+    "x": "866",
+    "y": "912",
+    "class": "1",
+    "cost": "19,180",
+    "population": "3.636"
+  },
+  {
+    "city": "Moscow",
+    "x": "1719",
+    "y": "780",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Mount Isa",
+    "x": "2468",
+    "y": "1455",
+    "class": "1",
+    "cost": "1,100",
+    "population": "0.02"
+  },
+  {
+    "city": "Mumbai",
+    "x": "1970",
+    "y": "1147",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Munich",
+    "x": "1507",
+    "y": "878",
+    "class": "1",
+    "cost": "16,000",
+    "population": "3"
+  },
+  {
+    "city": "Murmansk",
+    "x": "1665",
+    "y": "562",
+    "class": "1",
+    "cost": "2,540",
+    "population": "0.308"
+  },
+  {
+    "city": "Muscat",
+    "x": "1858",
+    "y": "1111",
+    "class": "1",
+    "cost": "4,675",
+    "population": "0.735"
+  },
+  {
+    "city": "Nagasaki",
+    "x": "2395",
+    "y": "1032",
+    "class": "1",
+    "cost": "3,230",
+    "population": "0.446"
+  },
+  {
+    "city": "Nairobi",
+    "x": "1693",
+    "y": "1300",
+    "class": "2",
+    "cost": "21,000",
+    "population": "4"
+  },
+  {
+    "city": "Nanping",
+    "x": "2296",
+    "y": "1082",
+    "class": "1",
+    "cost": "15,500",
+    "population": "2.9"
+  },
+  {
+    "city": "Naples",
+    "x": "1532",
+    "y": "960",
+    "class": "1",
+    "cost": "5,815",
+    "population": "0.963"
+  },
+  {
+    "city": "New Orleans",
+    "x": "744",
+    "y": "1059",
+    "class": "1",
+    "cost": "7,180",
+    "population": "1.236"
+  },
+  {
+    "city": "New York",
+    "x": "864",
+    "y": "956",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Newman",
+    "x": "2335",
+    "y": "1480",
+    "class": "1",
+    "cost": "1,040",
+    "population": "0.008"
+  },
+  {
+    "city": "Nome",
+    "x": "177",
+    "y": "657",
+    "class": "1",
+    "cost": "1,020",
+    "population": "0.004"
+  },
+  {
+    "city": "Norilsk",
+    "x": "2073",
+    "y": "576",
+    "class": "1",
+    "cost": "1,875",
+    "population": "0.175"
+  },
+  {
+    "city": "Novosibirsk",
+    "x": "2063",
+    "y": "798",
+    "class": "1",
+    "cost": "8,370",
+    "population": "1.474"
+  },
+  {
+    "city": "Nuuk",
+    "x": "1048",
+    "y": "679",
+    "class": "1",
+    "cost": "1,090",
+    "population": "0.018"
+  },
+  {
+    "city": "Oaxaca",
+    "x": "699",
+    "y": "1161",
+    "class": "1",
+    "cost": "2,325",
+    "population": "0.265"
+  },
+  {
+    "city": "Orlando",
+    "x": "806",
+    "y": "1072",
+    "class": "1",
+    "cost": "11,670",
+    "population": "2.134"
+  },
+  {
+    "city": "Osaka",
+    "x": "2433",
+    "y": "1017",
+    "class": "2",
+    "cost": "21,000",
+    "population": "4"
+  },
+  {
+    "city": "Oslo",
+    "x": "1495",
+    "y": "736",
+    "class": "1",
+    "cost": "8,210",
+    "population": "1.442"
+  },
+  {
+    "city": "Ottawa",
+    "x": "838",
+    "y": "912",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Oulu",
+    "x": "1619",
+    "y": "648",
+    "class": "1",
+    "cost": "1,720",
+    "population": "0.144"
+  },
+  {
+    "city": "Padang",
+    "x": "2179",
+    "y": "1303",
+    "class": "1",
+    "cost": "5,170",
+    "population": "0.834"
+  },
+  {
+    "city": "Palu",
+    "x": "2320",
+    "y": "1299",
+    "class": "1",
+    "cost": "2,675",
+    "population": "0.335"
+  },
+  {
+    "city": "Panama City",
+    "x": "828",
+    "y": "1221",
+    "class": "1",
+    "cost": "7,365",
+    "population": "1.273"
+  },
+  {
+    "city": "Paris",
+    "x": "1436",
+    "y": "871",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Perm",
+    "x": "1851",
+    "y": "755",
+    "class": "1",
+    "cost": "5,960",
+    "population": "0.992"
+  },
+  {
+    "city": "Perth",
+    "x": "2292",
+    "y": "1544",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Pevek",
+    "x": "2709",
+    "y": "558",
+    "class": "1",
+    "cost": "1,020",
+    "population": "0.004"
+  },
+  {
+    "city": "Philadelphia",
+    "x": "848",
+    "y": "972",
+    "class": "2",
+    "cost": "30,825",
+    "population": "5.965"
+  },
+  {
+    "city": "Phoenix",
+    "x": "605",
+    "y": "1031",
+    "class": "2",
+    "cost": "21,965",
+    "population": "4.193"
+  },
+  {
+    "city": "Port Elizabeth",
+    "x": "1616",
+    "y": "1555",
+    "class": "1",
+    "cost": "6,255",
+    "population": "1.051"
+  },
+  {
+    "city": "Port Hedland",
+    "x": "2326",
+    "y": "1449",
+    "class": "1",
+    "cost": "1,060",
+    "population": "0.012"
+  },
+  {
+    "city": "Port Moresby",
+    "x": "2533",
+    "y": "1368",
+    "class": "1",
+    "cost": "2,540",
+    "population": "0.308"
+  },
+  {
+    "city": "Port Sudan",
+    "x": "1693",
+    "y": "1149",
+    "class": "1",
+    "cost": "3,585",
+    "population": "0.517"
+  },
+  {
+    "city": "Portland",
+    "x": "491",
+    "y": "915",
+    "class": "1",
+    "cost": "12,300",
+    "population": "2.26"
+  },
+  {
+    "city": "Porto Velho",
+    "x": "941",
+    "y": "1349",
+    "class": "1",
+    "cost": "3,180",
+    "population": "0.436"
+  },
+  {
+    "city": "Prague",
+    "x": "1537",
+    "y": "859",
+    "class": "1",
+    "cost": "10,825",
+    "population": "1.965"
+  },
+  {
+    "city": "Punta Arenas",
+    "x": "898",
+    "y": "1777",
+    "class": "1",
+    "cost": "1,595",
+    "population": "0.119"
+  },
+  {
+    "city": "Quebec City",
+    "x": "880",
+    "y": "890",
+    "class": "1",
+    "cost": "4,580",
+    "population": "0.716"
+  },
+  {
+    "city": "Quito",
+    "x": "827",
+    "y": "1295",
+    "class": "1",
+    "cost": "17,710",
+    "population": "3.342"
+  },
+  {
+    "city": "Rangoon",
+    "x": "2137",
+    "y": "1167",
+    "class": "2",
+    "cost": "22,740",
+    "population": "4.348"
+  },
+  {
+    "city": "Recife",
+    "x": "1154",
+    "y": "1352",
+    "class": "2",
+    "cost": "21,685",
+    "population": "4.137"
+  },
+  {
+    "city": "Reykjavik",
+    "x": "1250",
+    "y": "656",
+    "class": "1",
+    "cost": "2,010",
+    "population": "0.202"
+  },
+  {
+    "city": "Riga",
+    "x": "1604",
+    "y": "772",
+    "class": "1",
+    "cost": "6,135",
+    "population": "1.027"
+  },
+  {
+    "city": "Rio De Janeiro",
+    "x": "1094",
+    "y": "1466",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Riyadh",
+    "x": "1760",
+    "y": "1102",
+    "class": "2",
+    "cost": "35,000",
+    "population": "6.8"
+  },
+  {
+    "city": "Rockhampton",
+    "x": "2553",
+    "y": "1481",
+    "class": "1",
+    "cost": "1,375",
+    "population": "0.075"
+  },
+  {
+    "city": "Rome",
+    "x": "1508",
+    "y": "942",
+    "class": "1",
+    "cost": "14,805",
+    "population": "2.761"
+  },
+  {
+    "city": "Salt Lake City",
+    "x": "573",
+    "y": "955",
+    "class": "1",
+    "cost": "6,620",
+    "population": "1.124"
+  },
+  {
+    "city": "Salvador",
+    "x": "1126",
+    "y": "1385",
+    "class": "2",
+    "cost": "25,330",
+    "population": "4.866"
+  },
+  {
+    "city": "San Diego",
+    "x": "544",
+    "y": "1041",
+    "class": "1",
+    "cost": "16,475",
+    "population": "3.095"
+  },
+  {
+    "city": "San Francisco",
+    "x": "504",
+    "y": "981",
+    "class": "2",
+    "cost": "22,675",
+    "population": "4.335"
+  },
+  {
+    "city": "San Jose",
+    "x": "789",
+    "y": "1212",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Santiago",
+    "x": "882",
+    "y": "1550",
+    "class": "2",
+    "cost": "37,000",
+    "population": "7.2"
+  },
+  {
+    "city": "Santo Domingo",
+    "x": "888",
+    "y": "1150",
+    "class": "1",
+    "cost": "19,560",
+    "population": "3.712"
+  },
+  {
+    "city": "Sao Paulo",
+    "x": "1062",
+    "y": "1480",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Sapporo",
+    "x": "2479",
+    "y": "936",
+    "class": "1",
+    "cost": "16,000",
+    "population": "3"
+  },
+  {
+    "city": "Saskatoon",
+    "x": "635",
+    "y": "820",
+    "class": "1",
+    "cost": "2,305",
+    "population": "0.261"
+  },
+  {
+    "city": "Seattle",
+    "x": "491",
+    "y": "886",
+    "class": "2",
+    "cost": "21,000",
+    "population": "4"
+  },
+  {
+    "city": "Sendai",
+    "x": "2477",
+    "y": "981",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Seoul",
+    "x": "2372",
+    "y": "989",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Shanghai",
+    "x": "2323",
+    "y": "1052",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Shenyang",
+    "x": "2345",
+    "y": "948",
+    "class": "3",
+    "cost": "41,500",
+    "population": "8.1"
+  },
+  {
+    "city": "Singapore",
+    "x": "2189",
+    "y": "1272",
+    "class": "2",
+    "cost": "26,910",
+    "population": "5.182"
+  },
+  {
+    "city": "Spokane",
+    "x": "550",
+    "y": "892",
+    "class": "1",
+    "cost": "4,050",
+    "population": "0.61"
+  },
+  {
+    "city": "St. Louis",
+    "x": "737",
+    "y": "981",
+    "class": "1",
+    "cost": "15,065",
+    "population": "2.813"
+  },
+  {
+    "city": "St. Petersburg",
+    "x": "1645",
+    "y": "725",
+    "class": "2",
+    "cost": "25,400",
+    "population": "4.88"
+  },
+  {
+    "city": "Stockholm",
+    "x": "1551",
+    "y": "736",
+    "class": "1",
+    "cost": "11,455",
+    "population": "2.091"
+  },
+  {
+    "city": "Sydney",
+    "x": "2547",
+    "y": "1565",
+    "class": "2",
+    "cost": "26,000",
+    "population": "5"
+  },
+  {
+    "city": "Taipei",
+    "x": "2329",
+    "y": "1102",
+    "class": "2",
+    "cost": "35,500",
+    "population": "6.9"
+  },
+  {
+    "city": "Tbilisi",
+    "x": "1746",
+    "y": "936",
+    "class": "1",
+    "cost": "8,425",
+    "population": "1.485"
+  },
+  {
+    "city": "Tehran",
+    "x": "1797",
+    "y": "997",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Teresina",
+    "x": "1090",
+    "y": "1328",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  },
+  {
+    "city": "Thunder Bay",
+    "x": "749",
+    "y": "872",
+    "class": "1",
+    "cost": "1,610",
+    "population": "0.122"
+  },
+  {
+    "city": "Tiksi",
+    "x": "2384",
+    "y": "514",
+    "class": "1",
+    "cost": "1,025",
+    "population": "0.005"
+  },
+  {
+    "city": "Timbuktu",
+    "x": "1399",
+    "y": "1162",
+    "class": "1",
+    "cost": "1,273",
+    "population": "0.0545"
+  },
+  {
+    "city": "Tokyo",
+    "x": "2467",
+    "y": "1014",
+    "class": "3",
+    "cost": "51,000",
+    "population": "10"
+  },
+  {
+    "city": "Toronto",
+    "x": "817",
+    "y": "925",
+    "class": "2",
+    "cost": "26,565",
+    "population": "5.113"
+  },
+  {
+    "city": "Tripoli",
+    "x": "1506",
+    "y": "1038",
+    "class": "1",
+    "cost": "10,000",
+    "population": "1.8"
+  },
+  {
+    "city": "Trondheim",
+    "x": "1490",
+    "y": "675",
+    "class": "1",
+    "cost": "1,880",
+    "population": "0.176"
+  },
+  {
+    "city": "Ulan Bator",
+    "x": "2221",
+    "y": "886",
+    "class": "1",
+    "cost": "6,950",
+    "population": "1.19"
+  },
+  {
+    "city": "Urumqi",
+    "x": "2087",
+    "y": "924",
+    "class": "1",
+    "cost": "14,720",
+    "population": "2.744"
+  },
+  {
+    "city": "Vancouver",
+    "x": "488",
+    "y": "856",
+    "class": "1",
+    "cost": "11,585",
+    "population": "2.117"
+  },
+  {
+    "city": "Venice",
+    "x": "1508",
+    "y": "909",
+    "class": "1",
+    "cost": "2,355",
+    "population": "0.271"
+  },
+  {
+    "city": "Vienna",
+    "x": "1553",
+    "y": "878",
+    "class": "1",
+    "cost": "13,095",
+    "population": "2.419"
+  },
+  {
+    "city": "Vladivostok",
+    "x": "2402",
+    "y": "933",
+    "class": "1",
+    "cost": "3,960",
+    "population": "0.592"
+  },
+  {
+    "city": "Volgograd",
+    "x": "1746",
+    "y": "872",
+    "class": "1",
+    "cost": "6,105",
+    "population": "1.021"
+  },
+  {
+    "city": "Warsaw",
+    "x": "1578",
+    "y": "831",
+    "class": "1",
+    "cost": "14,160",
+    "population": "2.632"
+  },
+  {
+    "city": "Washington Dc",
+    "x": "839",
+    "y": "988",
+    "class": "2",
+    "cost": "28,900",
+    "population": "5.58"
+  },
+  {
+    "city": "Wellington",
+    "x": "2735",
+    "y": "1627",
+    "class": "1",
+    "cost": "2,965",
+    "population": "0.393"
+  },
+  {
+    "city": "Whitehorse",
+    "x": "403",
+    "y": "723",
+    "class": "1",
+    "cost": "1,115",
+    "population": "0.023"
+  },
+  {
+    "city": "Windhoek",
+    "x": "1552",
+    "y": "1468",
+    "class": "1",
+    "cost": "2,600",
+    "population": "0.32"
+  },
+  {
+    "city": "Winnipeg",
+    "x": "689",
+    "y": "862",
+    "class": "1",
+    "cost": "4,475",
+    "population": "0.695"
+  },
+  {
+    "city": "Xi'an",
+    "x": "2250",
+    "y": "1021",
+    "class": "3",
+    "cost": "43,340",
+    "population": "8.468"
+  },
+  {
+    "city": "Xining",
+    "x": "2158",
+    "y": "995",
+    "class": "1",
+    "cost": "7,000",
+    "population": "1.2"
+  },
+  {
+    "city": "Yakutsk",
+    "x": "2394",
+    "y": "701",
+    "class": "1",
+    "cost": "2,345",
+    "population": "0.269"
+  },
+  {
+    "city": "Yellowknife",
+    "x": "566",
+    "y": "691",
+    "class": "1",
+    "cost": "1,100",
+    "population": "0.02"
+  },
+  {
+    "city": "Yinchuan",
+    "x": "2219",
+    "y": "974",
+    "class": "1",
+    "cost": "7,500",
+    "population": "1.3"
+  },
+  {
+    "city": "Zanzibar",
+    "x": "1714",
+    "y": "1348",
+    "class": "1",
+    "cost": "11,000",
+    "population": "2"
+  }
+]

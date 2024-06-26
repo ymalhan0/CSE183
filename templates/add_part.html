@@ -1,0 +1,27 @@
+[[extend 'layout.html']]
+<!--side nav bar-->
+<div class="sidenav">
+    <a href="[[=URL('index')]]">Home</a>
+    <a href="[[=URL('trading')]]">Trading</a>
+    <a href="[[=URL('planner')]]">Flight Planner</a>
+    <a href="[[=URL('distance')]]">Distance Calculator</a>
+</div>
+
+<!--Top Welcome Message-->
+<div class="main">
+    <section class="hero is-link welcome is-small mb-3">
+        <div class="hero-body">
+            <div class="container">
+                <div class="subtitle">Add Part</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Go back to trading page-->
+    <a class="button is-dark is-outlined  mb-4" href="[[=URL('trading')]]">
+        <span class="icon-text"><i class=" fa fa-fw fa-arrow-left"></i></span>
+        <span>Back to Trading</span>
+    </a>
+
+    [[=form]]
+</div>

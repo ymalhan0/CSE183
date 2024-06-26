@@ -1,0 +1,40 @@
+[[extend 'layout.html']]
+
+<!--Background image-->
+<div class="has-sky">
+    <img src="../static/css/skies.png" alt="">
+</div>
+
+<!--Side nav bar (is in all pages)-->
+<div class="sidenav">
+    <a href="[[=URL('index')]]">Home</a>
+    <a href="[[=URL('trading')]]">Trading</a>
+    <a href="[[=URL('planner')]]">Flight Planner</a>
+    <a href="[[=URL('distance')]]">Distance Calculator</a>
+</div>
+
+
+<!--Welcome Message-->
+<div class="main">
+    <section class="hero is-main is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Hello, [[=globals().get('user').get('first_name')]].
+                </h1>
+                <h2 class="subtitle">
+                    Welcome to the Pocket Planes Companion App!
+                </h2>
+                <div class="subtitle">This app is based of the mobile game, Pocket Planes. Use this app to find
+                    people to trade plane parts with, plan flights, and
+                    calculate travel distances to find the optimal plane. Navigate to your
+                    desired destination using the sidebar.
+                    <span>&#9992</span>
+                </div>
+                <div class="text has-text-weight-medium">
+                    Created by: Andrew Trent, Evelyn Johnson, Yukti Malhan
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

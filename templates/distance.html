@@ -1,0 +1,79 @@
+[[extend 'layout.html']]
+<style>
+    [v-cloak] {
+        display: none;
+    }
+</style>
+<!-- side bar -->
+<div class="sidenav">
+    <a href="[[=URL('index')]]">Home</a>
+    <a href="[[=URL('trading')]]">Trading</a>
+    <a href="[[=URL('planner')]]">Flight Planner</a>
+    <a href="[[=URL('distance')]]">Distance Calculator</a>
+</div>
+
+<!-- Top Welcome Message -->
+<section class="main" id="vue-target" v-cloak>
+    <section class="hero is-link welcome is-small mb-5">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Distance Calculator <span>&#128506</span>
+                </h1>
+                <h2 class="subtitle">Select cities using the dropdowns below to calculate the distance between them,
+                    what class planes are limited to the route, and what planes are viable.
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Select Cities to Calculate -->
+    <section>
+        <span class="subtitle has-text-weight-bold  mb-6 ">Starting City:
+            <div class="select mb-4 is-size-6">
+                <select v-model="selected_city_a">
+                    <option v-for="citya in city_list" :value="citya">{{ citya }}</option>
+                </select>
+            </div>
+        </span>
+        <span class="subtitle has-text-weight-bold">Ending City:
+            <div class="select mb-4 is-size-6">
+                <select v-model="selected_city_b">
+                    <option v-for="cityb in city_list" :value="cityb">{{ cityb }}</option>
+                </select>
+            </div>
+        </span>
+        <div class="button is-primary" v-on:click="distanceCalc(selected_city_a, selected_city_b)">
+            Calculate
+        </div>
+    </section>
+
+    <!-- Displaying info from calculations, only display if same city not selected-->
+    <section class="mt-5" v-if="(distance_result_same == '') ">
+        <div class="subtitle has-text-weight-semibold">
+            {{ distance_result_cities }}
+            <span class="subtitle has-text-info">{{distance_result}}</span>
+        </div>
+        <div class="subtitle has-text-weight-semibold">
+            {{ distance_result_class_string }}
+            <span class="subtitle has-text-info">{{distance_result_classes}}</span>
+        </div>
+        <div class="subtitle has-text-weight-semibold">
+            {{ distance_result_viable_planes }}
+            <ul class="has-text-weight-semibold has-text-info" v-for="plane in sortedViablePlanes">
+                <li>{{plane}}</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- If same city selected, display warning-->
+    <section v-else>
+        <div class="subtitle has-text-danger-dark has-text-weight-semibold mt-5">{{distance_result_same}}</div>
+    </section>
+</section>
+
+[[block page_scripts]]
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+<script src="js/index.js"></script>
+[[end]]

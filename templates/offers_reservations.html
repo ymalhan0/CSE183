@@ -1,0 +1,83 @@
+[[extend 'layout.html']]
+
+<div class="sidenav">
+    <a href="[[=URL('index')]]">Home</a>
+    <a href="[[=URL('trading')]]">Trading</a>
+    <a href="[[=URL('planner')]]">Flight Planner</a>
+    <a href="[[=URL('distance')]]">Distance Calculator</a>
+</div>
+
+<div class="main" id="vue-target" v-cloak>
+    <!--Top welcome message-->
+    <section class="hero is-link welcome is-small mb-4">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">Offers & Reservations</h1>
+                <h2 class="subtitle">View and manage your trades here.</h2>
+            </div>
+        </div>
+    </section>
+
+    <!--Go back to trading page-->
+    <a class="button is-dark is-outlined  mb-4" href="[[=URL('trading')]]">
+        <span class="icon-text"><i class=" fa fa-fw fa-arrow-left"></i></span>
+        <span>Back to Trading</span>
+    </a>
+
+    <!--Offers column, has all of user's info and accept/decline button-->
+    <div class="columns">
+        <div class="column">
+            <div class="title mb-2">Your Offers</div>
+            <div v-for="offer in offers">
+                <p class="subtitle has-text-weight-medium mb-2">User {{ offer.reserved_by }} wants your
+                    <span class=" has-text-info-dark subtitle has-text-weight-semibold mb-2">{{offer.part_name}}</span>!
+                </p>
+                <div class="has-text-weight-semibold is-underlined"> {{ offer.reserved_by }}'s contact information:
+                </div>
+                <div class="has-text-weight-semibold"> Friend Code:
+                    <span class="has-text-info has-text-weight-semibold">{{ offer.friend_code }}</span>
+                </div>
+                <div class="has-text-weight-semibold"> Discord:
+                    <span class="has-text-info has-text-weight-semibold"> {{ offer.discord_username}} </span>
+                </div>
+                <div class="has-text-weight-semibold"> Reddit:
+                    <span class="has-text-info has-text-weight-semibold"> {{ offer.reddit_username }} </span>
+                </div>
+                <button class="button is-primary mb-4" @click="complete_trade(offer.id)">Accept</button>
+                <button class="button is-danger is-outlined mb-4" @click="decline_trade(offer.id)">Decline</button>
+            </div>
+        </div>
+        <!--Reservations column, has all of user's info and unreserve button-->
+        <div class="column">
+            <div class="title mb-2">Your Reservations</div>
+            <div v-for="reservation in reservations" class="reservation">
+                <p class="subtitle has-text-weight-medium mb-2">You reserved {{ reservation.original_owner }}'s
+                    <span class=" has-text-info-dark subtitle has-text-weight-semibold mb-2">{{reservation.part_name
+                        }}</span>!
+                </p>
+                <div class="has-text-weight-semibold is-underlined"> {{ reservation.original_owner }}'s contact
+                    information:
+                </div>
+                <div class="has-text-weight-semibold"> Friend Code:
+                    <span class="has-text-info has-text-weight-semibold">{{ reservation.original_friend_code }}</span>
+                </div>
+                <div class="has-text-weight-semibold"> Discord:
+                    <span class="has-text-info has-text-weight-semibold"> {{ reservation.original_discord_username }}
+                    </span>
+                </div>
+                <div class="has-text-weight-semibold"> Reddit:
+                    <span class="has-text-info has-text-weight-semibold"> {{ reservation.original_reddit_username }}
+                    </span>
+                </div>
+                <button class="button is-info is-outlined mb-4"
+                    @click="unreserve_trade(reservation.id)">Unreserve</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+[[block page_scripts]]
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+<script src="js/offers_reservations.js"></script>
+[[end]]
